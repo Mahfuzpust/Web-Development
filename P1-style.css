@@ -1,0 +1,27 @@
+table{
+    border: 2px blue solid;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    
+}
+th,td{
+    border: 2px blue solid;
+    padding: 10px;
+}
+th{
+    background-color: green;
+}
+
+
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+tr:nth-child(odd){
+    background-color: greenyellow;
+}
+
+tr:hover{
+    background-color: hotpink;
+}
