@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.container a{
+  text-decoration: none;
+}
+.container{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0%;
+}
+.logo{
+  
+
+}
+.middle a{
+  margin: 20px;
+}
+.last a{
+  margin: 20px;
+}
+img{
+  display: inline;
+  width: 630px;
+}
